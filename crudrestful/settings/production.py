@@ -82,12 +82,24 @@ WSGI_APPLICATION = 'crudrestful.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.8/ref/settings/#databases
 
+#DATABASES = {
+#    'default': {
+#        'ENGINE': 'django.db.backends.sqlite3',
+#        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+#    }
+#}
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'd4fvno7iu91ql5',
+        'USER': 'hanwjebbynigbu',
+        'PASSWORD': '676b9e25727701bf9d11feb2dbc1f71a34db3af3e8e334abc51720f0e3f23863',
+        'HOST': 'ec2-23-21-158-253.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
+
 
 
 # Internationalization
