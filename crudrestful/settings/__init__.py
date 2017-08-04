@@ -1,6 +1,4 @@
-from .production import *
-
 try:
-    from .local import *
+    from .production import *
 except:
-    pass
+    from .local import *
