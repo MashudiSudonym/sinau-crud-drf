@@ -91,7 +91,7 @@ WSGI_APPLICATION = 'crudrestful.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'd4fvno7iu91ql5',
         'USER': 'hanwjebbynigbu',
         'PASSWORD': '676b9e25727701bf9d11feb2dbc1f71a34db3af3e8e334abc51720f0e3f23863',
