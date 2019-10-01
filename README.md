@@ -2,4 +2,4 @@
 
 Belajar membuat Create, Read, Update, Delete menggunakan Django Rest Framework
 
-test : https://crudsederhana.herokuapp.com
+you can test : https://crudsederhana.herokuapp.com
