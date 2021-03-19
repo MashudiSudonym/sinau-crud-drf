@@ -1,6 +1,6 @@
 Django==1.8.18
 django-filter==1.0.4
-djangorestframework==3.6.3
+djangorestframework==3.11.2
 Markdown==2.6.8
 gunicorn==19.6.0
 whitenoise==3.2.2
